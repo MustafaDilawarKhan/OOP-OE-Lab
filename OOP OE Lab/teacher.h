@@ -4,4 +4,12 @@
 
 using namespace std;
 
-class Teacher {}
+class Teacher {
+public:
+    string teacherID;
+    string name;
+    string email;
+
+
+
+};
