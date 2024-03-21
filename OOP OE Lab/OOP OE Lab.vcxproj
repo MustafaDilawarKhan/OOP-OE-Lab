@@ -127,9 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="course.h" />
     <ClInclude Include="student.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="course.cpp" />
     <ClCompile Include="student.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
